@@ -1,0 +1,14 @@
+{
+    "1": {
+      "user_id": 1,
+      "name": "Oven"
+    },
+    "2": {
+      "user_id": 1,
+      "name": "Blender"
+    },
+    "3": {
+      "user_id": 1,
+      "name": "Grill"
+    }
+  }
