@@ -18,5 +18,7 @@ a {
 }
 
 body {
-  background-color: #88effd;
+
+    background-image: linear-gradient(to right, #628662 , #FFBD47);
+
 }

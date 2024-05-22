@@ -1,0 +1,42 @@
+{
+    "1": {
+      "user_id": 1,
+      "name": "Pancakes",
+      "body": "Mix flour, sugar, and water...",
+      "ingredients": [
+        {"id": 1, "name": "Flour", "location": "Pantry"},
+        {"id": 2, "name": "Sugar", "location": "Pantry"}
+      ],
+      "equipment": [
+        {"id": 1, "name": "Oven"}
+      ],
+      "status": "Draft",
+      "difficulty": 2
+    },
+    "2": {
+      "user_id": 2,
+      "name": "Tomato Soup",
+      "body": "Boil tomatoes, add seasoning...",
+      "ingredients": [
+        {"id": 3, "name": "Tomato", "location": "Refrigerator"}
+      ],
+      "equipment": [
+        {"id": 2, "name": "Blender"}
+      ],
+      "status": "Published",
+      "difficulty": 3
+    },
+    "3": {
+      "user_id": 3,
+      "name": "Grilled Chicken",
+      "body": "Marinate chicken, grill...",
+      "ingredients": [
+        {"id": 4, "name": "Chicken", "location": "Freezer"}
+      ],
+      "equipment": [
+        {"id": 3, "name": "Grill"}
+      ],
+      "status": "Pending",
+      "difficulty": 4
+    }
+  }
