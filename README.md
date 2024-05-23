@@ -8,6 +8,7 @@
 
 **Key Needs Addressed**:
 
+
 1. **Efficient Use of Ingredients**: Utilize ingredients already in the home to reduce waste and unnecessary purchases.
 2. **Customization of Recipes**: Generate meal options that align with user’s taste preferences, available equipment, and desired difficulty level.
 3. **Simplified Cooking Process**: Simplify the decision-making process by automating ingredient matching and recipe suggestions.
@@ -44,5 +45,6 @@
 - **Feedback**: Users can rate the recipe, add notes, and upload photos of their dish.
 
 ### 7. Recipe Regeneration
+
 
 - **Modify and Save**: Users can regenerate the same recipe with their updated notes, improving the recipe for future use.
