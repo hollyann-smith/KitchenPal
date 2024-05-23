@@ -30,7 +30,6 @@ function Equipment() {
       <div className="d-flex flex-wrap">
         <EquipmentCard key={equipments.id} equipmentObj={equipments} />
       </div>
-
     </div>
   );
 }

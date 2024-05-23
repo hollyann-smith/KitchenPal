@@ -1,22 +1,22 @@
 {
-    "1": {
-      "user_id": 1,
-      "name": "Flour",
-      "location": "Pantry"
-    },
-    "2": {
-      "user_id": 1,
-      "name": "Sugar",
-      "location": "Pantry"
-    },
-    "3": {
-      "user_id": 1,
-      "name": "Tomato",
-      "location": "Refrigerator"
-    },
-    "4": {
-      "user_id": 1,
-      "name": "Chicken",
-      "location": "Freezer"
-    }
+  "1": {
+    "user_id": 1,
+    "name": "Flour",
+    "location": "Pantry"
+  },
+  "2": {
+    "user_id": 1,
+    "name": "Sugar",
+    "location": "Pantry"
+  },
+  "3": {
+    "user_id": 1,
+    "name": "Tomato",
+    "location": "Refrigerator"
+  },
+  "4": {
+    "user_id": 1,
+    "name": "Chicken",
+    "location": "Freezer"
   }
+}
