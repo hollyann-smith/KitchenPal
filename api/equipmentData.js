@@ -2,6 +2,7 @@ import { clientCredentials } from '../utils/client';
 
 const endpoint = clientCredentials.databaseURL;
 
+
 const getEquipment = () => new Promise((resolve, reject) => {
   fetch(`${endpoint}/equipment.json`, {
     method: 'GET',
@@ -81,3 +82,4 @@ export {
   deleteSingleEquipment,
   updateEquipment,
 };
+
