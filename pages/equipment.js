@@ -23,12 +23,12 @@ function Equipment() {
   }, [getAllEquipment]);
 
   return (
-    <div className="text-center my-4">
+    <div className="my-4 text-center">
       <Link href="/equipment/new" passHref>
         <Button>Add Equipment</Button>
       </Link>
-      <div className="d-flex flex-wrap">
-        <EquipmentCard key={equipments.id} equipmentObj={equipments} />
+      <div className="flex-wrap d-flex">
+        <EquipmentCard key={equipments.id} equipmentArray={equipments} />
       </div>
     </div>
   );
