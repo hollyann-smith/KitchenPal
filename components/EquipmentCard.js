@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 
-function EquipmentCard({ equipmentObj }) {
-  const equipment = equipmentObj;
+function EquipmentCard({ equipmentArray }) {
+  const equipment = equipmentArray;
 
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
       <div className="card">
         <ul>
           {equipment?.map((item) => (
-            <li key={item.id}>{item.name}</li>
+            <li key={item.id + item.name}>{item.name}</li>
           ))}
         </ul>
       </div>
@@ -19,10 +19,12 @@ function EquipmentCard({ equipmentObj }) {
 }
 
 EquipmentCard.propTypes = {
-  equipmentObj: PropTypes.shape({
-    name: PropTypes.string,
-    id: PropTypes.string,
-  }).isRequired,
+  equipmentArray: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      id: PropTypes.string,
+    }),
+  ).isRequired,
 };
 
 export default EquipmentCard;
